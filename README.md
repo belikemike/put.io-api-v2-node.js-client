@@ -1,7 +1,16 @@
+Fork from Robin Schulz <hello@rschu.me> (@bulletinmybeard) Client
+===================================
+Main Changes:
+ - Changed config to use a typescript class with environment variables
+ - fixed overloaded request method to build with typescript 4
+ - can be installed as npm module
+
 Node.js Client for Put.io's API (V2)
 ===================================
 
-1.) Make a copy of `config.example.json` and rename it to `config.json`
+1.) Setup Environment Variables
+	- CREDENTIALS-NAME
+	- 
 2.) Run `npm install`
 3.) Run `ts-node example.ts` and retrieve a paginated list of your files
  
